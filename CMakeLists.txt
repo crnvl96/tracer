@@ -10,6 +10,7 @@ FetchContent_Declare(raylib GIT_REPOSITORY https://github.com/raysan5/raylib.git
 FetchContent_MakeAvailable(raylib)
 
 # cmake .. -DCMAKE_BUILD_TYPE=Debug
+# cmake --build .
 
 add_executable(Raytracer src/main.c)
 
